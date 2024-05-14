@@ -1,19 +1,27 @@
 :root{
-    --indian-red: #ee5356ff;
-    --mountbatten-pink: #aa7c89ff;
-    --thistle: #d6b8c1ff;
-    --fuchsia-rose: #c15b74ff;
-    --french-gray: #c3c3c7ff;
+    --coral: #ee5356ff;
+    --muted-pink: #aa7c89ff;
+    --light-pink: #d6b8c1ff;
+    --fuchsia: #c15b74ff;
+    --gray: #c3c3c7ff;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 75vw 1fr;
+    min-height: 100svh;
+}
+
+.panel {
+
+    background-image: url(../images/panel.jpg);
 }
 
 .site-header {
-
-}
-
-.site-form {
-
+    grid-column: 1/-1;
+    background-color: var(--coral);
 }
 
 .site-footer {
-    
+    grid-column: 1/-1;
 }
