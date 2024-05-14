@@ -24,4 +24,5 @@ function addBlogPost() {
         currentBlogsArray.push(newBlogPost);
         localStorage.setItem('blogs', JSON.stringify(currentBlogsArray));
     }
+    location.assign("/blog.html")
 }
