@@ -1,6 +1,6 @@
 .site-form {
-    margin: 2rem 0;
-    padding: 1rem 2rem;
+    margin: 2rem;
+    padding: 2rem 2rem;
     min-width: 20rem;
 }
 
@@ -8,23 +8,25 @@ legend {
     font-size: 1.5rem;
     padding: 0.25rem;
     color: var(--coral);
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     position: relative;
 }
 
 label {
     display: block;
+    padding: .25rem;
 }
 
 input {
    border: solid 2px var(--muted-pink);
    width: 60%;
-   font-size: 1.25rem;
+   font-size: 1rem;
 }
 
 textarea {
     border: solid 2px var(--muted-pink);
+    padding: 0.25em;
     width: 100%;
 }
 
