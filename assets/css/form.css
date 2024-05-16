@@ -19,7 +19,7 @@ label {
 
 input {
    border: solid 2px var(--muted-pink);
-   width: 75%;
+   width: 60%;
    font-size: 1.25rem;
 }
 
@@ -33,5 +33,6 @@ button {
     background-color: var(--coral);
     font-size: 1.5rem;
     text-align: center;
+    color:white;
 }
 
