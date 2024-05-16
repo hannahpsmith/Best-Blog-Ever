@@ -25,6 +25,20 @@ p {
     color: white
 }
 
+nav {
+    color: white;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+li {
+    max-width: 6rem;
+}
+
+li:hover {
+    color: var(--gray);
+}
+
 .panel {
     background-image: url(../images/panel.jpg);
     background-position:left 135rem top 48rem;
@@ -38,4 +52,5 @@ p {
 
 .site-footer {
     grid-column: 1/-1;
+    background-color: var(--muted-pink);
 }
