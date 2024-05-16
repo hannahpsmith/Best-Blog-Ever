@@ -1,3 +1,37 @@
 .site-form {
-    
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    min-width: 20rem;
 }
+
+legend {
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    color: var(--coral);
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+}
+
+label {
+    display: block;
+}
+
+input {
+   border: solid 2px var(--muted-pink);
+   width: 75%;
+   font-size: 1.25rem;
+}
+
+textarea {
+    border: solid 2px var(--muted-pink);
+    width: 100%;
+}
+
+button {
+    border: solid 3px var(--coral);
+    background-color: var(--coral);
+    font-size: 1.5rem;
+    text-align: center;
+}
+

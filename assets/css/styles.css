@@ -1,3 +1,7 @@
+*{
+    font-family:Georgia, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 :root{
     --coral: #ee5356ff;
     --muted-pink: #aa7c89ff;
@@ -12,9 +16,17 @@ body {
     min-height: 100svh;
 }
 
-.panel {
+p {
+    position:relative;
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 3rem;
+}
 
+.panel {
     background-image: url(../images/panel.jpg);
+    max-height: 100%;
+    
 }
 
 .site-header {
