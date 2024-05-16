@@ -1,4 +1,6 @@
 .blog-container {
+    display: grid;
+    grid-template-rows: .5fr 2fr .5fr;
     margin: 2rem;
     padding: 2rem 2rem;
     
