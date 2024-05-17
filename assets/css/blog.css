@@ -1,6 +1,7 @@
 .blog-container {
-    display: grid;
-    grid-template-rows: .5fr 2fr .5fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 2rem;
     padding: 2rem 2rem;
     
