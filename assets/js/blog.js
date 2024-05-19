@@ -12,9 +12,13 @@ function createElement(elementType, content) {
 
 function renderBlogPost(blogPost) {
 	const div = createElement("div", "");
+	div.className = "blog-container";
 	const title = createElement("h2", blogPost.title);
+	title.className = "blog-container-title";
 	const username = createElement("p", blogPost.username);
+	username.setAttribute('class', 'blog-container-content');
 	const content = createElement("p", blogPost.content);
+	content.setAttribute('class', 'blog-container-content');
 	div.appendChild(title);
 	div.appendChild(username);
 	div.appendChild(content);

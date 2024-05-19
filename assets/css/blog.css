@@ -1,9 +1,20 @@
 .blog-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
+    justify-content: space-between;
     margin: 2rem;
-    padding: 2rem 2rem;
     
+    
+}
+
+.blog-container-title {
+    font-size: 2rem;
+}
+
+.blog-container-username {
+
+}
+
+.blog-container-content {
+
 }
 

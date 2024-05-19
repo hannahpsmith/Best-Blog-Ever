@@ -23,14 +23,6 @@ nav {
     font-size: 1.5rem;
 }
 
-li {
-    max-width: 6rem;
-}
-
-li:hover {
-    color: var(--gray);
-}
-
 .panel {
     background-image: url(../images/panel.jpg);
     background-position:left 135rem top 48rem;
@@ -50,4 +42,12 @@ li:hover {
 .site-footer {
     grid-column: 1/-1;
     background-color: var(--muted-pink);
+}
+
+.footer-list {
+    max-width: 6rem;
+}
+
+.footer-list:hover {
+    color: var(--gray);
 }
