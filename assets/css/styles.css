@@ -19,14 +19,13 @@ body {
 
 nav {
     color: white;
-    margin: 1.5rem;
+    margin: 1.15rem;
     font-size: 1.5rem;
 }
 
 .panel {
     background-image: url(../images/panel.jpg);
     background-position:left 135rem top 48rem;
-    
 }
 
 .site-header {
@@ -34,14 +33,16 @@ nav {
     background-color: var(--coral);
     position:relative;
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.25rem;
     font-size: 3rem;
-    color: white
+    color: white;
+    border-bottom: solid 15px var(--gray);
 }
 
 .site-footer {
     grid-column: 1/-1;
     background-color: var(--muted-pink);
+    border-top: solid 15px var(--gray);
 }
 
 .footer-list {

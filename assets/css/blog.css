@@ -1,7 +1,7 @@
 .blog-container {
     display: flex;
     flex-direction: column;
-    border: solid var(--muted-pink) 4px;
+    border: solid var(--light-pink) 4px;
     justify-content: space-between;
     margin: 2rem;
     padding: 1rem;
