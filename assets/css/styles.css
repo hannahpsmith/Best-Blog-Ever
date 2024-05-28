@@ -10,6 +10,26 @@
     --gray: #c3c3c7ff;
 }
 
+[data-theme="light"] {
+    --clr-bg: #f8fafc;
+	--clr-text: #020617;
+	--btn-content: '🔆'
+}
+
+.theme-toggle {
+	background: color-mix(in srgb, var(--clr-bg) 96%, var(--clr-text));
+	border-radius: .25rem;
+	border: none;
+	font-size: 2rem;
+	cursor: pointer;
+	height: 2.75rem;
+	width: 2.75rem;
+}
+
+.theme-toggle::before {
+	content: var(--btn-content);
+}
+
 body {
     display: grid;
     grid-template-columns: .5fr 3fr .5fr;

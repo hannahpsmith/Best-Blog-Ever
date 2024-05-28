@@ -16,7 +16,7 @@ function renderBlogPost(blogPost) {
 	const title = createElement("h2", blogPost.title);
 	title.className = "blog-container-title";
 	const usernameText = `Posted by: ${blogPost.username}`;
-	const username = createElement("p", blogPost.username);
+	const username = createElement("p", usernameText);
 	username.setAttribute('class', 'blog-container-content');
 	const content = createElement("p", blogPost.content);
 	content.setAttribute('class', 'blog-container-content');

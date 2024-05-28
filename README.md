@@ -7,10 +7,10 @@ x WHEN I load the app,
 x THEN I am presented with the landing page containing a form with labels and inputs for username, blog title, and blog content.
 x WHEN I submit the form,
 x THEN blog post data is stored to localStorage.
-WHEN the form submits,
-THEN I am redirected to the posts page.
-WHEN I enter try to submit a form without a username, title, or content,
-THEN I am presented with a message that prompts me to complete the form.
+x WHEN the form submits,
+x THEN I am redirected to the posts page.
+x WHEN I enter try to submit a form without a username, title, or content,
+x THEN I am presented with a message that prompts me to complete the form.
 WHEN I view the posts page,
 THEN I am presented with a header, with a light mode/dark mode toggle, and a "Back" button.
 WHEN I click the light mode/dark mode toggle,
