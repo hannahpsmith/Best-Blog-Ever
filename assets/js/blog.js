@@ -29,3 +29,6 @@ function renderBlogPost(blogPost) {
 blogs.forEach((blogPost) => {
 	renderBlogPost(blogPost);
 });
+
+const backButton = document.getElementById('backButton');
+backButton.addEventListener('click', () => history.back());

@@ -34,7 +34,8 @@ nav {
 .icon-button {
   box-shadow: none;
   font-size: 1.2rem;
-  padding: 0.4rem;
+  padding: 0.3rem;
+
 }
 
 #toggleButton {
@@ -42,7 +43,6 @@ nav {
   background: none;
   border: none;
   outline: none;
-  transition: transform 0.3s;
 
 }
 
@@ -60,7 +60,6 @@ nav {
     background-color: var(--coral);
     position:relative;
     text-align: center;
-    padding-bottom: 2rem;
     font-size: 3rem;
     color: white;
     border-bottom: solid 15px var(--gray);

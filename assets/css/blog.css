@@ -25,3 +25,17 @@
     font-size: 1rem;
 }
 
+.back-button {
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+.back-button:hover {
+    background-color: #c15b74ff;
+}
+
+        
+.site-header div {
+    display: flex;
+}
+
