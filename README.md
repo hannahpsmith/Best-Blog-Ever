@@ -19,9 +19,9 @@ WHEN I click the "Back" button,
 THEN I am redirected back to the landing page where I can input more blog entries.
 WHEN I view the main content,
 THEN I am presented with a list of blog posts that are pulled from localStorage.
-WHEN I view localStorage,
-THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.
-WHEN I take a closer look at a single blog entry in the list,
-THEN I can see the title, the content, and the author of the post.
-WHEN I view the footer,
-THEN I am presented with a link to the developer's portfolio.
+x WHEN I view localStorage,
+x THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.
+x WHEN I take a closer look at a single blog entry in the list,
+x THEN I can see the title, the content, and the author of the post.
+x WHEN I view the footer,
+x THEN I am presented with a link to the developer's portfolio.

@@ -11,23 +11,11 @@
 }
 
 [data-theme="light"] {
-    --clr-bg: #f8fafc;
-	--clr-text: #020617;
-	--btn-content: '🔆'
+  background-color: white;
 }
 
-.theme-toggle {
-	background: color-mix(in srgb, var(--clr-bg) 96%, var(--clr-text));
-	border-radius: .25rem;
-	border: none;
-	font-size: 2rem;
-	cursor: pointer;
-	height: 2.75rem;
-	width: 2.75rem;
-}
-
-.theme-toggle::before {
-	content: var(--btn-content);
+[data-theme="dark"] {
+  background-color: black;
 }
 
 body {
@@ -43,6 +31,25 @@ nav {
     font-size: 1.5rem;
 }
 
+.icon-button {
+  box-shadow: none;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+}
+
+#toggleButton {
+  display: flex;
+  background: none;
+  border: none;
+  outline: none;
+  transition: transform 0.3s;
+
+}
+
+#toggleButton:hover {
+  background-color: var(--fuchsia);
+}
+
 .panel {
     background-image: url(../images/panel.jpg);
     background-position:left 135rem top 48rem;
@@ -53,7 +60,7 @@ nav {
     background-color: var(--coral);
     position:relative;
     text-align: center;
-    padding: 1.25rem;
+    padding-bottom: 2rem;
     font-size: 3rem;
     color: white;
     border-bottom: solid 15px var(--gray);
@@ -72,3 +79,8 @@ nav {
 .footer-list:hover {
     color: var(--gray);
 }
+
+.light {
+    background-color: white;
+}
+
