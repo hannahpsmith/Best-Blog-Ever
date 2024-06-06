@@ -6,7 +6,17 @@ if (currentTheme) {
     body.classList.add(currentTheme);
     toggleButton.textContent = currentTheme === 'light' ? '☀️' : '🌙';
 }
-    
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     const themeValue = localStorage.getItem('theme');
+//     if (themeValue) {
+//         body.setAttribute('data-theme', themeValue)
+//     } else {
+//         return;
+//     }
+// });
+
+
 let mode = 'light';
 
 themeSwitcher.addEventListener('click', function() {

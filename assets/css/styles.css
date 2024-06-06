@@ -8,14 +8,18 @@
     --light-pink: #d6b8c1ff;
     --fuchsia: #c15b74ff;
     --gray: #c3c3c7ff;
+    --white: #ffffff;
+    --rose: #e48697;
+    --eggplant: #5e323e;
 }
 
 [data-theme="light"] {
-  background-color: white;
+  --background-color: var(--light-pink);
 }
 
 [data-theme="dark"] {
-  background-color: black;
+  --background-color: var(--eggplant);
+  --font-color: var(--white);
 }
 
 body {
