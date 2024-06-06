@@ -1,35 +1,25 @@
 const themeSwitcher = document.getElementById('toggleButton');
 const body = document.body;
 
-const currentTheme = localStorage.getItem('theme');
-if (currentTheme) {    
-    body.classList.add(currentTheme);
-    toggleButton.textContent = currentTheme === 'light' ? '☀️' : '🌙';
+function getThemeState() {
+    return body.getAttribute("data-theme");
 }
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     const themeValue = localStorage.getItem('theme');
-//     if (themeValue) {
-//         body.setAttribute('data-theme', themeValue)
-//     } else {
-//         return;
-//     }
-// });
+function setThemeState(themeValue) {
+    body.setAttribute("data-theme", themeValue);
+    localStorage.setItem("theme", themeValue);
+}
+
+const userThemePreference = localStorage.getItem('theme');
+    if (userThemePreference) {
+        setThemeState(userThemePreference);
+    }
 
 
 let mode = 'light';
 
 themeSwitcher.addEventListener('click', function() {
-    if (mode === 'light') {
-        mode = 'dark';
-        toggleButton.textContent = '🌙';
-        localStorage.setItem('theme', 'dark');
-    }
-    else {
-        mode = 'light';
-        toggleButton.textContent = '☀️';
-        localStorage.setItem('theme', 'light');
-    }
+    const currentTheme = getThemeState();
+    setThemeState(currentTheme === "light" ? "dark" : "light");
+    themeSwitcher.textContent = currentTheme === "light" ?  "🌙" : "☀️" ;
 })
-
-

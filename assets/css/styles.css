@@ -14,7 +14,8 @@
 }
 
 [data-theme="light"] {
-  --background-color: var(--light-pink);
+  --background-color: var(--white);
+  --font-color: black;
 }
 
 [data-theme="dark"] {
@@ -27,6 +28,8 @@ body {
     grid-template-columns: .5fr 3fr .5fr;
     grid-template-rows: 6.5rem 2fr 8.5rem;
     min-height: 100svh;
+    background-color: var(--background-color);
+    color: var(--font-color);
 }
 
 nav {
@@ -82,8 +85,3 @@ nav {
 .footer-list:hover {
     color: var(--gray);
 }
-
-.light {
-    background-color: white;
-}
-
