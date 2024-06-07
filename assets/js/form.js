@@ -24,5 +24,5 @@ function addBlogPost() {
         currentBlogsArray.push(newBlogPost);
         localStorage.setItem('blogs', JSON.stringify(currentBlogsArray));
     }
-    location.assign("/Best-Blog-Ever/blog.html")
+    location.assign("https://hannahpsmith.github.io/blog.html")
 }
